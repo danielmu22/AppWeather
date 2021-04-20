@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/mycss.css">
+    <script type="text/javascript" src="js/prueba.js" defer></script>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="campostexto">
+            <input type="text" id="city" class="ciudadabuscar" name="city" placeholder="City" autoComplete="off"><br>
+        </div>
+        <button class="botonenviar">Get Weather</button>
+
+        <div id="informacion" class="cargando">
+            <div id="estadotiempo">
+                <div><img class="iconotiempo" src="https://openweathermap.org/img/wn/01n@4x.png" /></div>
+                <h2 class="maxymin descripciontiempo">Soleado</h2>
+            </div>
+
+            <div id="tiempogrados">
+                <h2 class="datosbuscados datosbuscadosCiudad">Ciudad</h2>
+                <p class="datosbuscados datosbuscadosPais">Humidity: 50%</p>
+                <p id="grados" class="gradosennumero">32º</p>
+            </div>
+
+            <div id="maximoyminimo">
+                <p class="maxymin">Max</p>
+                <p class="maxymintemperature temperaturamaxima">34º</p>
+                <p class="maxymin">Min</p>
+                <p class="maxymintemperature temperaturaminima">25º</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

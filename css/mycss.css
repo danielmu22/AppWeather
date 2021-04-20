@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    background-image: url("/img/background.png");
+    background-color: #cccccc;
+    height: 100vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+#campostexto{
+    padding-top: 7vh;  
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input::-webkit-input-placeholder {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+input[name="city"],
+input[name="country"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    font-size: 1.5rem;
+    cursor: text;
+    outline: none;
+  
+}
+
+input::placeholder {
+    color:white;
+  }
+
+#cajaboton{
+    width: 100%;
+}
+
+button {
+    padding: 0.4vh 2vw;
+    border-radius: 0.4vw;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 6vh 42vw;
+    overflow: hidden;
+    text-decoration: none;
+	background: rgba(255, 255, 255, 0.432);
+	box-shadow: 0 5px 5px rgba(0,0,0.2);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+	background: rgba(255, 255, 255, 0.781);
+	box-shadow: 0 10px 10px rgba(0,0,0.2);
+    transition: 0.6s;
+}
+
+#informacion{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#estadotiempo{
+    width: 20vw;
+    background: rgba(255, 255, 255, 0.432);
+    border-radius: 0.4vw;
+}
+
+.iconotiempo{
+    width: 100%;;
+}
+
+#tiempogrados{
+    width: 20vw;
+    background: rgba(255, 255, 255, 0.432);
+    border-radius: 0.4vw;
+    height: 30vw;
+}
+
+.datosbuscados {
+    margin-top: 4vh;
+    font-size: 3vw;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#grados{
+    margin-top: 3vh;
+    font-size: 12vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+#maximoyminimo{
+    width: 20vw;
+    background: rgba(255, 255, 255, 0.432);
+    border-radius: 0.4vw;
+}
+
+.maxymin{
+    margin-top: 4vh;
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.maxymintemperature{
+
+    margin-top: 2vh;
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
