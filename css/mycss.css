@@ -5,7 +5,7 @@
 
 body {
     
-    background-image: url("/img/background.png");
+    background-image: url("https://source.unsplash.com/1600x900/?madrid");
     background-color: #cccccc;
     height: 100vh; 
     background-position: center; 

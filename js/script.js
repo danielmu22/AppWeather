@@ -18,6 +18,8 @@ let weather = {
         document.querySelector(".descripciontiempo").innerText = description;
         document.querySelector(".temperaturamaxima").innerText = (temp_max-273.15).toFixed() + "º" ;
         document.querySelector(".temperaturaminima").innerText = (temp_min-273.15).toFixed() + "º";
+        document.body.style.backgroundImage  =
+        "url('https://source.unsplash.com/1600x900/?" + name + "')";
     },
     search: function() {
         this.fetchWeather(document.querySelector(".ciudadabuscar").value);
