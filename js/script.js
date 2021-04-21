@@ -20,6 +20,7 @@ let weather = {
         document.querySelector(".temperaturaminima").innerText = (temp_min-273.15).toFixed() + "º";
         document.body.style.backgroundImage  =
         "url('https://source.unsplash.com/1600x900/?" + name + "')";
+        document.getElementById('informacion').classList.remove('sinver');
     },
     search: function() {
         this.fetchWeather(document.querySelector(".ciudadabuscar").value);

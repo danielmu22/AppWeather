@@ -101,7 +101,7 @@ button:hover{
 
 #grados{
     margin-top: 3vh;
-    font-size: 12vw;
+    font-size: 15vh;
     text-align: center;
     font-weight: bold;
 }
@@ -125,4 +125,8 @@ button:hover{
     font-size: 5vw;
     text-align: center;
     font-weight: bold;
+}
+
+.sinver{
+    opacity: 0;
 }
