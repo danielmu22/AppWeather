@@ -130,3 +130,87 @@ button:hover{
 .sinver{
     opacity: 0;
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+        
+    body{
+        height: 180vh;
+        background-image: url("https://source.unsplash.com/700x1600/?madrid");
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }
+
+    #informacion{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+    #estadotiempo{
+        width: 80vw;
+        background: rgba(255, 255, 255, 0.432);
+        border-radius: 0.4vw;
+    }
+    
+    .iconotiempo{
+        width: 100%;;
+    }
+    
+    #tiempogrados{
+        width: 80vw;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.432);
+        border-radius: 0.4vw;
+        height: 45vh;
+    }
+    
+    .datosbuscados {
+        margin-top: 7vh;
+        font-size: 5vh;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    #grados{
+        margin-top: 3vh;
+        font-size: 15vh;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    #maximoyminimo{
+        width: 80vw;
+        background: rgba(255, 255, 255, 0.432);
+        border-radius: 0.4vw;
+        margin-bottom: 4vh;
+    }
+    
+    .maxymin{
+        margin-top: 1vh;
+        font-size: 6vh;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    .maxymintemperature{
+    
+        margin-top: 2vh;
+        font-size: 5vh;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .botonenviar{
+        margin: 6vh 36vw;
+    }
+
+
+}
